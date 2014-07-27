@@ -1,10 +1,10 @@
 Resulting tidy dataset:
 Tidy1.txt
----------
+=========
 Merged training and test data set containing also the activity name and subject. It only contains the mean and the std variables
 
 Columns:
-=======
+--------
 
 "tBodyAcc-mean()-X" - See features_info.txt in the original dataset
 "tBodyAcc-mean()-Y" - See features_info.txt in the original dataset
@@ -89,18 +89,18 @@ Columns:
 "subject-id" - subject id (1-30)
 
 Tidy2.txt
----------
+=========
 Merged train and test data set. Avarage of variables (described in feature_info.txt) grouped by activity and subject.
 
 Columns:
-=======
+--------
 "Group: activity-name" - activity name
 "Group: subject-id" - subject
 all the columns from the features.txt: the values are the avarage for train and test data..
 
 
 Script
-------
+======
  For the script variables see the docs at variables in run_analisys.R
  
 
